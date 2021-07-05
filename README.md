@@ -39,4 +39,4 @@ Production
 ```bash
 npm run production
 ```
->>>>>>> 5198ef8 (Colors test)
+
