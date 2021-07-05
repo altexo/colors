@@ -1,6 +1,23 @@
 
 # colors
 
+## Introduccion
+
+Url produccion:
+```bash
+http://165.232.158.79
+```
+
+Esta app esta desarrollada con un stack de:
+
+Laravel
+MySQL
+Vue SPA
+
+La aplicacioon web se encuentra dentro del mismo proyecto, solo necesitas seguir las instrucciones para correr el proeycto. No olvides crear una base de datos y añadir los datos de conexion en el archivo .env
+
+Podran encontrar un archivo API-doc.json con mas ejemplos del API. Tambien pueden encontrarse las rutas en routes/api.php
+
 ## Installation
 First run
 ```bash

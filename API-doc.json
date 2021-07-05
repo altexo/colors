@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "abb42b39-4ee3-4987-9e37-2a64f84c5cd1",
+		"name": "Colors",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get /colores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "PUT / colores / :id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"name\": \"Amazul\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/color/1/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"color",
+						"1",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Amarillo",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST / colores",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"name\" : \"Black\",\n    \"color\" : \"H7777\",\n    \"pantone\" : \"11-2323\",\n    \"year\" : 2020\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/colores",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"colores"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Cafe",
+							"disabled": true
+						},
+						{
+							"key": "color",
+							"value": "#0000",
+							"disabled": true
+						},
+						{
+							"key": "pantone",
+							"value": "11-1340",
+							"disabled": true
+						},
+						{
+							"key": "year",
+							"value": "2020",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET / Mostrar por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE / Borrar color por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "GET / Obtener colores API con parametros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
